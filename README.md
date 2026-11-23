@@ -2,7 +2,7 @@
 
 <img src="./assets/hero.svg" width="100%" alt="Ibrahim Karakira, AI systems architect: architecture that outlives its models" />
 
-<samp>[linkedin](https://www.linkedin.com/in/ibrahimkarakira/) · [email](mailto:ibrahimkarakira@hotmail.com) · [churnbench](https://github.com/ibrahimkarakira/churnbench)</samp>
+<samp>[linkedin](https://www.linkedin.com/in/ibrahimkarakira/) · [email](mailto:ibrahimkarakira@gmail.com) · [churnbench](https://github.com/ibrahimkarakira/churnbench)</samp>
 
 </div>
 
