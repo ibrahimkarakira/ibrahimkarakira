@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Ibrahim Karakira, AI systems architect</title>
+  <desc id="d">Blueprint drawing: three horizon arcs for 2030, 2050 and 2100 over a fixed architecture foundation while the model on top is swapped.</desc>
+  <defs>
+    <pattern id="fine" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#4FB3C8" stroke-opacity=".05"/></pattern>
+    <pattern id="major" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#fine)"/><path d="M100 0H0V100" fill="none" stroke="#4FB3C8" stroke-opacity=".11"/></pattern>
+    <style>
+      .serif{font-family:Georgia,'Times New Roman',serif}
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace}
+      .m{opacity:0;animation:swap 9s infinite}
+      .m2{animation-delay:3s}.m3{animation-delay:6s}
+      @keyframes swap{0%{opacity:0}5%{opacity:1}30%{opacity:1}36%{opacity:0}100%{opacity:0}}
+      .blk{animation:blink 3s infinite}
+      @keyframes blink{0%,100%{stroke-opacity:.9}50%{stroke-opacity:.35}}
+      .draw{stroke-dasharray:1 1;stroke-dashoffset:1;animation:draw 2.4s ease-out forwards}
+      .d2{animation-delay:.5s}.d3{animation-delay:1s}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      @media (prefers-reduced-motion:reduce){.m,.blk,.draw{animation:none}.m1{opacity:1}.draw{stroke-dashoffset:0}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="460" fill="#0A1018"/>
+  <rect width="1200" height="460" fill="url(#major)"/>
+
+  <!-- registration marks -->
+  <g stroke="#8C97A6" stroke-opacity=".5" fill="none">
+    <circle cx="28" cy="28" r="6"/><path d="M18 28H38M28 18V38"/>
+    <circle cx="1172" cy="28" r="6"/><path d="M1162 28H1182M1172 18V38"/>
+    <circle cx="28" cy="432" r="6"/><path d="M18 432H38M28 422V442"/>
+  </g>
+
+  <!-- left: identity -->
+  <text x="72" y="92" class="mono" font-size="13" letter-spacing="4" fill="#E0A84F">AI SYSTEMS ARCHITECT  ·  DESIGN FOR THE SWAP</text>
+  <text x="66" y="182" class="serif" font-size="86" fill="#EDE6D6">Ibrahim</text>
+  <text x="66" y="268" class="serif" font-size="86" font-style="italic" fill="#EDE6D6">Karakira</text>
+  <path d="M72 300H152" stroke="#E0A84F" stroke-width="2"/>
+  <text x="72" y="340" class="serif" font-size="24" font-style="italic" fill="#EDE6D6" fill-opacity=".9">Architecture that outlives its models.</text>
+  <text x="72" y="378" class="mono" font-size="14" fill="#8C97A6">model half-life  ·  agent governance  ·  evals that gate upgrades</text>
+
+  <!-- right: horizon elevation -->
+  <g fill="none" stroke-width="1.5">
+    <path class="draw" pathLength="1" d="M830 340A100 100 0 0 1 1030 340" stroke="#EDE6D6" stroke-opacity=".7"/>
+    <path class="draw d2" pathLength="1" d="M765 340A165 165 0 0 1 1095 340" stroke="#EDE6D6" stroke-opacity=".45"/>
+    <path class="draw d3" pathLength="1" d="M700 340A230 230 0 0 1 1160 340" stroke="#E0A84F" stroke-opacity=".85"/>
+  </g>
+  <circle r="4" fill="#E0A84F"><animateMotion dur="14s" repeatCount="indefinite" path="M700 340A230 230 0 0 1 1160 340"/></circle>
+  <g class="mono" font-size="11" letter-spacing="2" fill="#8C97A6">
+    <text x="1016" y="270">2030</text>
+    <text x="1066" y="226">2050</text>
+    <text x="1128" y="176" fill="#E0A84F">2100</text>
+  </g>
+
+  <!-- dimension line -->
+  <g stroke="#8C97A6">
+    <path d="M700 84V124M1160 84V124" stroke-opacity=".4"/>
+    <path d="M700 96H880M980 96H1160"/>
+    <path d="M700 96l8 -4v8zM1160 96l-8 -4v8z" fill="#8C97A6" stroke="none"/>
+  </g>
+  <text x="930" y="100" class="mono" font-size="11" letter-spacing="2" fill="#8C97A6" text-anchor="middle">HORIZON</text>
+
+  <!-- ground line, foundation and the swappable model -->
+  <path d="M672 340H1188" stroke="#EDE6D6" stroke-opacity=".6"/>
+  <path d="M690 340l-10 10M710 340l-10 10M730 340l-10 10M1150 340l-10 10M1170 340l-10 10M1190 340l-10 10" stroke="#EDE6D6" stroke-opacity=".25"/>
+  <rect x="866" y="300" width="128" height="40" fill="#0A1018" stroke="#EDE6D6" stroke-opacity=".9"/>
+  <text x="930" y="325" class="mono" font-size="10" letter-spacing="2" fill="#EDE6D6" text-anchor="middle">ARCHITECTURE</text>
+  <rect class="blk" x="890" y="264" width="80" height="28" fill="#0A1018" stroke="#E0A84F" stroke-dasharray="3 3"/>
+  <g class="mono" font-size="10" fill="#E0A84F" text-anchor="middle">
+    <text class="m m1" x="930" y="282">model 2026</text>
+    <text class="m m2" x="930" y="282">model 2030</text>
+    <text class="m m3" x="930" y="282">model 2050</text>
+  </g>
+
+  <!-- title block -->
+  <g class="mono" font-size="10" letter-spacing="1.5" fill="#8C97A6">
+    <rect x="804" y="380" width="372" height="56" fill="none" stroke="#8C97A6" stroke-opacity=".5"/>
+    <path d="M928 380V436M1052 380V436M804 408H1176" stroke="#8C97A6" stroke-opacity=".3"/>
+    <text x="816" y="398">DWG</text><text x="816" y="426" fill="#EDE6D6">MHL-001</text>
+    <text x="940" y="398">SCALE</text><text x="940" y="426" fill="#EDE6D6">1 : 2100</text>
+    <text x="1064" y="398">REV</text><text x="1064" y="426" fill="#EDE6D6">2026</text>
+  </g>
+</svg>
